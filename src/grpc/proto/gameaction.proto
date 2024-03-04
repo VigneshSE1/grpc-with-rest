@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package gamification;
+
+service GameActionService {
+  rpc TriggerGameAction (GameActionRequest) returns (GameActionResponse);
+}
+
+message GameActionRequest {
+  string gameId = 1;
+  string userId = 2;
+}
+
+message GameActionResponse {
+  string userId = 1;
+  int32 points = 2;
+}
