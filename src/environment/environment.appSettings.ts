@@ -8,4 +8,6 @@ export const CONFIG = {
   LOG_FORMAT: process.env.LOG_FORMAT,
   ORIGIN: process.env.ORIGIN,
   CREDENTIALS: process.env.CREDENTIALS === 'true',
+  REWARD_RALLY_BASE_ENDPOINT: process.env.REWARD_RALLY_BASE_ENDPOINT,
+  ZOHO_DESK_API_KEY: process.env.ZOHO_DESK_API_KEY,
 };
