@@ -1,4 +1,4 @@
-// source: src/grpc/proto/gameaction.proto
+// source: gameaction.proto
 /**
  * @fileoverview
  * @enhanceable
